@@ -1,3 +1,2 @@
 # SlantedTextView
 Android slanted TextView .
-

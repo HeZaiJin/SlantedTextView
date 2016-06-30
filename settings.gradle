@@ -1,1 +1,1 @@
-include ':demo', ':libary'
+include ':demo', ':android-slanted-textview'

@@ -16,10 +16,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * SlantedTextView 倾斜的文字 不要设置背景
- *
  * @author HaoZhang
- * @date 2016/6/29.
  */
 public class SlantedTextView extends View {
 
@@ -166,8 +163,8 @@ public class SlantedTextView extends View {
 
     /**
      * @param mode :
-     *             SlantedTextView.MODE_LEFT 顺时针旋转 ；SlantedTextView.MODE_RIGHT 逆时针旋转
-     * @return
+     *             SlantedTextView.MODE_LEFT clockwise rotate ；SlantedTextView.MODE_RIGHT anticlockwise rotate
+     * @return this
      */
     public SlantedTextView setMode(int mode) {
         this.mMode = mode;
@@ -187,9 +184,9 @@ public class SlantedTextView extends View {
     }
 
     /**
-     * 设置倾斜的长度
+     * set slanted space length
      * @param length
-     * @return
+     * @return this
      */
     public SlantedTextView setSlantedLength(int length) {
         mSlantedLength = length;
