@@ -2,7 +2,7 @@
 一个倾斜的TextView,适用于标签效果。
 
 ## 预览
-[预览](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/screenshot.png)
+![预览](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/screenshot.png)
 
 ## Gradle
 ```java
