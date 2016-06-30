@@ -36,8 +36,6 @@ compile 'com.haozhang.libary:android-slanted-textview:1.0'
 ```
 ## 注意
 ![注意](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/note.png)
-
-SlantedLength 属性，指的是
 #License
 ```
 Copyright 2016 Hand HaoZhang
