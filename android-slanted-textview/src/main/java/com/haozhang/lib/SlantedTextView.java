@@ -88,7 +88,6 @@ public class SlantedTextView extends View {
         mTextPaint.setTextSize(mTextSize);
         mTextPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.ADD));
         mTextPaint.setColor(mTextColor);
-//        mTextPaint.setTextAlign(Paint.Align.CENTER);
     }
 
 
