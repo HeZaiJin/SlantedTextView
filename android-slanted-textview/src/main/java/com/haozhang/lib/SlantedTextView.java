@@ -22,6 +22,12 @@ public class SlantedTextView extends View {
 
     public static final int MODE_LEFT = 0;
     public static final int MODE_RIGHT = 1;
+    public static final int MODE_LEFT_BOTTOM = 2;
+    public static final int MODE_RIGHT_BOTTOM = 3;
+    public static final int MODE_LEFT_TRIANGLE = 4;
+    public static final int MODE_RIGHT_TRIANGLE = 5;
+    public static final int MODE_LEFT_BOTTOM_TRIANGLE = 6;
+    public static final int MODE_RIGHT_BOTTOM_TRIANGLE = 7;
 
     private Paint mPaint;
     private TextPaint mTextPaint;
@@ -163,7 +169,8 @@ public class SlantedTextView extends View {
 
     /**
      * @param mode :
-     *             SlantedTextView.MODE_LEFT clockwise rotate ；SlantedTextView.MODE_RIGHT anticlockwise rotate
+     * SlantedTextView.MODE_LEFT : top left
+     * SlantedTextView.MODE_RIGHT :top right
      * @return this
      */
     public SlantedTextView setMode(int mode) {
