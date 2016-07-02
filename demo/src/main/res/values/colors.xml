@@ -8,4 +8,12 @@
     <color name="secondary_text">#727272</color>
     <color name="icons">#FFFFFF</color>
     <color name="divider">#B6B6B6</color>
+
+    <color name="slanted_c2">#C2185B</color>
+    <color name="slanted_e9">#e91e63</color>
+    <color name="slanted_ff">#ff5252</color>
+    <color name="slanted_72">#727272</color>
+    <color name="slanted_4c">#4caf50</color>
+    <color name="slanted_fb">#fbc02d</color>
+
 </resources>

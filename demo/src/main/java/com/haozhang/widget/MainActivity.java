@@ -32,12 +32,12 @@ public class MainActivity extends AppCompatActivity {
 
         SlantedTextView stv = (SlantedTextView) findViewById(R.id.test);
 
-        stv.setText("PHP")
-                .setTextColor(Color.WHITE)
-                .setSlantedBackgroundColor(Color.BLACK)
-                .setTextSize(18)
-                .setSlantedLength(40)
-                .setMode(SlantedTextView.MODE_LEFT_BOTTOM);
+//        stv.setText("PHP")
+//                .setTextColor(Color.WHITE)
+//                .setSlantedBackgroundColor(Color.BLACK)
+//                .setTextSize(18)
+//                .setSlantedLength(50)
+//                .setMode(SlantedTextView.MODE_LEFT_BOTTOM);
 
     }
 

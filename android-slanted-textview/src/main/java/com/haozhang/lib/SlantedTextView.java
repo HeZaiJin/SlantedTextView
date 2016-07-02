@@ -118,6 +118,18 @@ public class SlantedTextView extends View {
             case MODE_RIGHT_BOTTOM:
                 path = getModeRightBottomPath(path, w, h);
                 break;
+            case MODE_LEFT_TRIANGLE:
+                path = getModeLeftTrianglePath(path, w, h);
+                break;
+            case MODE_RIGHT_TRIANGLE:
+                path = getModeRightTrianglePath(path, w, h);
+                break;
+            case MODE_LEFT_BOTTOM_TRIANGLE:
+                path = getModeLeftBottomTrianglePath(path, w, h);
+                break;
+            case MODE_RIGHT_BOTTOM_TRIANGLE:
+                path = getModeRightBottomTrianglePath(path, w, h);
+                break;
         }
         path.close();
         canvas.drawPath(path, mPaint);
@@ -155,18 +167,27 @@ public class SlantedTextView extends View {
     }
 
     private Path getModeLeftTrianglePath(Path path, int w, int h) {
+        path.lineTo(0,h);
+        path.lineTo(w,0);
         return path;
     }
 
     private Path getModeRightTrianglePath(Path path, int w, int h) {
+        path.lineTo(w,0);
+        path.lineTo(w,h);
         return path;
     }
 
     private Path getModeLeftBottomTrianglePath(Path path, int w, int h) {
+        path.lineTo(w,h);
+        path.lineTo(0,h);
         return path;
     }
 
     private Path getModeRightBottomTrianglePath(Path path, int w, int h) {
+        path.moveTo(0,h);
+        path.lineTo(w,h);
+        path.lineTo(w,0);
         return path;
     }
 
@@ -191,6 +212,7 @@ public class SlantedTextView extends View {
         RectF rectF = null;
         int offset = (int) (mSlantedLength / 2);
         switch (mMode) {
+            case MODE_LEFT_TRIANGLE:
             case MODE_LEFT:
                 rect = new Rect(0, 0, w, h);
                 rectF = new RectF(rect);
@@ -204,6 +226,7 @@ public class SlantedTextView extends View {
                 xy[3] = h / 2;
                 xy[4] = -ROTATE_ANGLE;
                 break;
+            case MODE_RIGHT_TRIANGLE:
             case MODE_RIGHT:
                 rect = new Rect(offset, 0, w + offset, h);
                 rectF = new RectF(rect);
@@ -217,6 +240,7 @@ public class SlantedTextView extends View {
                 xy[3] = h / 2;
                 xy[4] = ROTATE_ANGLE;
                 break;
+            case MODE_LEFT_BOTTOM_TRIANGLE:
             case MODE_LEFT_BOTTOM:
                 rect = new Rect(0, offset, w, h+offset);
                 rectF = new RectF(rect);
@@ -231,6 +255,7 @@ public class SlantedTextView extends View {
                 xy[3] = h / 2 + offset;
                 xy[4] = ROTATE_ANGLE;
                 break;
+            case MODE_RIGHT_BOTTOM_TRIANGLE:
             case MODE_RIGHT_BOTTOM:
                 rect = new Rect(offset, offset, w+offset, h+offset);
                 rectF = new RectF(rect);

@@ -3,4 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="img_width">140dp</dimen>
+    <dimen name="img_height">88dp</dimen>
+    <dimen name="text_height">48dp</dimen>
+    <dimen name="text_slanted">28dp</dimen>
 </resources>
