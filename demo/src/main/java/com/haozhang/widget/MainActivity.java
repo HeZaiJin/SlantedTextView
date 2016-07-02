@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 .setTextColor(Color.WHITE)
                 .setSlantedBackgroundColor(Color.BLACK)
                 .setTextSize(18)
-                .setSlantedLength(50)
-                .setMode(SlantedTextView.MODE_LEFT);
+                .setSlantedLength(40)
+                .setMode(SlantedTextView.MODE_LEFT_BOTTOM);
 
     }
 

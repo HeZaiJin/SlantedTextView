@@ -28,10 +28,12 @@
         android:gravity="center"
         app:slantedBackgroundColor="@color/primary"
         app:slantedLength="40dp"
-        app:slantedMode="right"
+        app:slantedMode="right_bottom"
         app:slantedText="Android"
         app:slantedTextColor="@color/primary_light"
-        app:slantedTextSize="16sp" />
+        app:slantedTextSize="16sp"
+        android:layout_alignBottom="@+id/left_img"
+        android:layout_alignEnd="@+id/left_img" />
 
     <ImageView
         android:id="@+id/right_img"
@@ -47,27 +49,27 @@
         android:gravity="center"
         app:slantedBackgroundColor="@color/secondary_text"
         app:slantedLength="40dp"
-        app:slantedMode="left"
+        app:slantedMode="right"
         app:slantedText="IOS"
         app:slantedTextColor="@color/primary"
         app:slantedTextSize="16sp"
         android:layout_below="@+id/left_img"
         android:layout_alignEnd="@+id/left_img" />
+
     <ImageView
         android:layout_marginTop="20dp"
         android:scaleType="fitXY"
         android:layout_width="220dp"
         android:layout_height="137dp"
         android:layout_below="@id/right_img"
-        android:src="@mipmap/test" />
+        android:src="@mipmap/test"
+        android:id="@+id/imageView" />
 
 
     <com.haozhang.lib.SlantedTextView
         android:id="@+id/test"
-        android:layout_marginTop="20dp"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:gravity="center"
-        android:layout_below="@+id/right_img"
-        android:layout_alignEnd="@+id/right_img" />
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
