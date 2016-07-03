@@ -31,7 +31,7 @@ compile 'com.haozhang.libary:android-slanted-textview:1.1'
             .setSlantedLength(50)
             .setMode(SlantedTextView.MODE_LEFT);
 ```
-## Notice
+## Attributes
 ![注意](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/note.png)
 ## SlantedMode
 ![SlantedMode](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/slanted_mode.png)

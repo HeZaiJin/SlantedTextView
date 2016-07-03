@@ -24,6 +24,7 @@ compile 'com.haozhang.libary:android-slanted-textview:1.1'
     />
 ```
 ## Java
+代码中可以动态设置属性
 ```java
     SlantedTextView stv = (SlantedTextView) findViewById(R.id.test);
 
@@ -34,7 +35,7 @@ compile 'com.haozhang.libary:android-slanted-textview:1.1'
             .setSlantedLength(50)
             .setMode(SlantedTextView.MODE_LEFT);
 ```
-## Attributes
+## 属性
 ![注意](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/note.png)
 ## SlantedMode
 ![SlantedMode](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/slanted_mode.png)
