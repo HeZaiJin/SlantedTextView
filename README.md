@@ -1,3 +1,4 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SlantedTextView-green.svg?style=true)](https://android-arsenal.com/details/1/3816)
 # SlantedTextView
 Android slanted TextView . [中文版](https://github.com/HeZaiJin/SlantedTextView/blob/master/README-cn.md)
 ## Preview
