@@ -1,3 +1,4 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SlantedTextView-green.svg?style=true)](https://android-arsenal.com/details/1/3816)
 # SlantedTextView
 一个倾斜的TextView,适用于标签效果。
 
