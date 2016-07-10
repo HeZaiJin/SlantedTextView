@@ -86,7 +86,6 @@ public class SlantedTextView extends View {
         mTextPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
         mTextPaint.setAntiAlias(true);
         mTextPaint.setTextSize(mTextSize);
-        mTextPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.ADD));
         mTextPaint.setColor(mTextColor);
     }
 

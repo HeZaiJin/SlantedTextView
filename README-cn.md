@@ -7,7 +7,7 @@
 
 ## Gradle
 ```java
-compile 'com.haozhang.libary:android-slanted-textview:1.1'
+compile 'com.haozhang.libary:android-slanted-textview:1.2'
 ```
 
 ## Layout文件

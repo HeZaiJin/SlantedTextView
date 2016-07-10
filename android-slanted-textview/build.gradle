@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/HeZaiJin/SlantedTextView'
     gitUrl = 'https://github.com/HeZaiJin/SlantedTextView.git'
 
-    libraryVersion = '1.1'
+    libraryVersion = '1.2'
 
     developerId = 'hezaijin'
     developerName = 'Hand HaoZhang'
@@ -31,8 +31,8 @@ android {
     defaultConfig {
         minSdkVersion 11
         targetSdkVersion 23
-        versionCode 2
-        versionName "1.1"
+        versionCode 3
+        versionName "1.2"
     }
     buildTypes {
         release {
