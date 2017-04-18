@@ -40,7 +40,7 @@ compile 'com.haozhang.libary:android-slanted-textview:1.2'
 ![注意](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/note.png)
 ## SlantedMode
 ![SlantedMode](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/slanted_mode.png)
-#License
+# License
 ```
 Copyright 2016 Hand HaoZhang
 
