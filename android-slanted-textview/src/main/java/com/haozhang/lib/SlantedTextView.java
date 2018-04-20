@@ -324,7 +324,7 @@ public class SlantedTextView extends View {
 
     public SlantedTextView setTextSize(int size) {
         this.mTextSize = size;
-        mPaint.setTextSize(mTextSize);
+        mTextPaint.setTextSize(mTextSize);
         postInvalidate();
         return this;
     }
