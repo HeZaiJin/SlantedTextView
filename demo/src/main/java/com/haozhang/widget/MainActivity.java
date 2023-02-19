@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
         SlantedTextView stv = (SlantedTextView) findViewById(R.id.test);
 
+//Typeface plain = Typeface.createFromAsset(assetManager, pathToFont);
+        // stv.setFont(plain);
+
 //        stv.setText("PHP")
 //                .setTextColor(Color.WHITE)
 //                .setSlantedBackgroundColor(Color.BLACK)

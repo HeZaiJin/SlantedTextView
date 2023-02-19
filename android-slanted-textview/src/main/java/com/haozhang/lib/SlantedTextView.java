@@ -41,6 +41,8 @@ public class SlantedTextView extends View {
     private String mSlantedText = "";
     private int mMode = MODE_LEFT;
 
+    private Typeface font;
+
     public SlantedTextView(Context context) {
         this(context, null);
     }
@@ -303,6 +305,15 @@ public class SlantedTextView extends View {
         postInvalidate();
         return this;
     }
+
+
+    public SlantedTextView setFont(Typeface font) {
+        font = font;
+        mTextPaint.setTypeface(font);
+        postInvalidate();
+        return this;
+    }
+
 
     /**
      * @param mode :
